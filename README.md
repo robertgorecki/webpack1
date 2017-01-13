@@ -1,7 +1,8 @@
 # Webpack Hello World
 
 **Create simple project using following tools**
-* webpack 
+* webpack
+* hot reload / hmr
 * gulp
 * es6
 * eslint
@@ -11,5 +12,5 @@
 * tests coverage report
 * creating prod package
   * minification
-  * source maps for js and less 
+  * source maps for js and less
 
