@@ -11,6 +11,12 @@ module.exports = {
     },
     
     module: {
+        preLoaders: [
+            {
+                test: /[\/\\]src[\/\\].*\.js$/,
+                loader: 'eslint',
+            }
+        ],
         loaders: [
             {
                 test: /[\/\\]src[\/\\].*\.html$/,
@@ -21,5 +27,5 @@ module.exports = {
                 loaders: ["babel"],
             }
         ],
-    },
+    }
 }
